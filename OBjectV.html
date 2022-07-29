@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    E-mail: <input type="email" id="myEmail" value="sheldiyavivek333@gmail.com">
+
+    <p>Click the button to get the e-mail address of the email field.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+
+    <script type="text/javascript">
+        let person={firstname:'vivek',
+            lastname:'manav',
+            age:21
+        };
+       
+
+
+    function myFunction() {
+    var x = document.getElementById("myEmail").value;
+    document.getElementById("demo").innerHTML = x;
+    }
+
+        
+         console.log(person);
+         
+    </script>
+</body>
+</html>    
